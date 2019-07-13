@@ -4,6 +4,7 @@ import pytesseract
 import sys
 from pdf2image import convert_from_path
 import os
+import re
 
 #Path of the pdf
 PDF_file = "/Users/alexandrubordei/PycharmProjects/OCR/ab_san_jamar.pdf"
@@ -76,4 +77,17 @@ for i in range(1, filelimit + 1):
     #finally, write the processed text to the file
     f.write(text)
 
-print(os.getcwd())
+#print(os.getcwd())
+
+'''Part 3 - Find the PO to be used'''
+
+#use regular expressions to find PO
+
+# Open file
+f = open(outfile, 'r')
+
+# Feed the file text into findall(); it returns a list of all the found strings
+strings = re.findall(r'P\.O\.\sNO\.\s\d\d\d\D\d\d\d\d\d', f.read())
+
+print(strings)
+
