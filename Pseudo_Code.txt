@@ -1,0 +1,19 @@
+1) convert pdf to text
+    a) load pdf from folder
+    b) convert pdf to image
+    c) recognize text in image
+    d) save text in txt document
+2) search text and recognize PO number
+    a) find text file
+    b) find text using regex
+        b1) look for P.O. _ _ _ - _ _ _ _ _
+    c) save P.O. number to a list
+3) Add PO to task automation logic
+    a) find PO list
+    b) use generator to provide one PO at a time from PO list
+4) Task automation logic
+    a) attach pdf to email template
+    b) set email recipient
+    c) place PO list in email
+    d) send email
+
