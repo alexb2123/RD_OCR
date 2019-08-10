@@ -7,6 +7,9 @@
     a) find text file
     b) find text using regex
         b1) look for P.O. _ _ _ - _ _ _ _ _
+    d) decide which PO to keep
+        d1) compare each string to the sample pool
+        d2) if the string repeats at all then remove the string and its pairs out of the pool
     c) save P.O. number to a list
 3) Add PO to task automation logic
     a) find PO list
@@ -16,4 +19,3 @@
     b) set email recipient
     c) place PO list in email
     d) send email
-
