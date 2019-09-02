@@ -6,6 +6,8 @@ from pdf2image import convert_from_path, convert_from_bytes
 import os.path
 import re
 from collections import Counter
+import cv2
+import numpy as np
 
 
 
@@ -20,7 +22,7 @@ if not os.path.exists(PDF_file):
     print('PDF_file does not exist !')
 
 
-''' 
+'''
 Part #1 : Converting PDF to images 
 '''
 
@@ -65,7 +67,8 @@ outfile = "out_text.txt"
 f = open(outfile, "a+")
 
 #config for pytesseract accuracy
-custom_oem_psm_config = r'--oem 3 --psm 6'
+custom_oem_psm_config = r'--psm 3'
+
 
 # Iterate from 1 to total number of pages
 for i in range(1, filelimit + 1):
@@ -77,9 +80,16 @@ for i in range(1, filelimit + 1):
     # page_n.jpg
     filename = "page_" + str(i) + ".jpg"
 
+# pre-process image
+    img = Image.open(filename)
+    open_cv_image = np.array(img)
+    umat_image = cv2.UMat(open_cv_image)
+    threshold = 180
+    retval, img = cv2.threshold(umat_image, 12, threshold, 255, cv2.THRESH_BINARY)
+    img = Image.fromarray(img.get())
 
 # Recognize the text as string in image using pytesserct
-    text = str(pytesseract.image_to_string(Image.open(filename)))
+    text = str(pytesseract.image_to_string(Image.open(filename), config=custom_oem_psm_config))
 
 # The recognized text is stored in variable text
 # Any string processing may be applied on text
@@ -114,3 +124,4 @@ a = not_singles(strings)
 
 print(a)
 
+f.close()
