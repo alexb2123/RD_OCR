@@ -14,7 +14,7 @@ import numpy as np
 
 # Path of the pdf
 my_path = os.path.abspath(os.path.dirname(__file__))
-PDF_file = os.path.join(my_path, "ab table.pdf")
+PDF_file = os.path.join(my_path, "50415-895-53478.PDF")
 
 if os.path.exists(PDF_file):
     pass
@@ -26,9 +26,7 @@ if not os.path.exists(PDF_file):
 Part #1 : Converting PDF to images 
 '''
 
-
-#pages = convert_from_bytes(pdf_bytes)
-pages = convert_from_path(PDF_file, 500)
+pages = convert_from_path(PDF_file, 300)
 
 # Counter to store images of each page of PDF to image
 image_counter = 1
@@ -67,7 +65,7 @@ outfile = "out_text.txt"
 f = open(outfile, "a+")
 
 #config for pytesseract accuracy
-custom_oem_psm_config = r'--psm 3'
+custom_oem_psm_config = r'--oem 3--psm 6'
 
 
 # Iterate from 1 to total number of pages
@@ -84,11 +82,13 @@ for i in range(1, filelimit + 1):
     img = Image.open(filename)
     open_cv_image = np.array(img)
     umat_image = cv2.UMat(open_cv_image)
-    threshold = 180
-    retval, img = cv2.threshold(umat_image, 12, threshold, 255, cv2.THRESH_BINARY)
+    threshold = 120
+    retval, img = cv2.threshold(umat_image, 12, threshold, 105, cv2.THRESH_BINARY)
     img = Image.fromarray(img.get())
+    img.save(filename)
 
-# Recognize the text as string in image using pytesserct
+
+# Recognize the text as string in image using pytesseract
     text = str(pytesseract.image_to_string(Image.open(filename), config=custom_oem_psm_config))
 
 # The recognized text is stored in variable text
