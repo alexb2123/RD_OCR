@@ -122,6 +122,6 @@ def not_singles(strings):
 #print(strings)
 a = not_singles(strings)
 
-print(a)
+list(a)
 
 f.close()

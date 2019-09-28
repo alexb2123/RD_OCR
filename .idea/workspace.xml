@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Convert_to_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="-376">
+              <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding>
                 <element signature="e#19#40#0" expanded="true" />
               </folding>
@@ -30,27 +30,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out_text.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124" />
           </provider>
         </entry>
       </file>
@@ -79,15 +72,15 @@
         <option value="$PROJECT_DIR$/PyPDF.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Convert_to_text.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="23" />
+    <option name="x" value="23" />
+    <option name="y" value="38" />
     <option name="width" value="1257" />
     <option name="height" value="708" />
   </component>
@@ -103,6 +96,11 @@
             <path>
               <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
               <item name="OCR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Control Images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
@@ -232,21 +230,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="23" width="1257" height="708" extended-state="0" />
-    <editor active="true" />
+    <frame x="23" y="38" width="1257" height="708" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.17152104" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.17152104" />
       <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info id="Favorites" order="2" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" visible="true" weight="0.21753247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.21753247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41558442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29383117" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5779221" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080127" side_tool="true" weight="0.29383117" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -364,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -397,25 +387,12 @@
     <entry file="file://$PROJECT_DIR$/page_6.jpg" />
     <entry file="file://$PROJECT_DIR$/page_10.jpg" />
     <entry file="file://$PROJECT_DIR$/page_2.jpg" />
-    <entry file="file://$PROJECT_DIR$/page_1.jpg" />
     <entry file="file://$PROJECT_DIR$/page_3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/out_text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Convert_to_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#19#40#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-43" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
@@ -425,9 +402,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out_text.txt">
+    <entry file="file://$PROJECT_DIR$/Control Images/page_5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124" />
+        <state relative-caret-position="345">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Convert_to_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
