@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74904ecc-060c-41e0-bb1a-20a87ec55eca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San_Jamar_ASN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Convert_to_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Convert_to_text.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Convert_to_text.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-376">
-              <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
               <folding>
                 <element signature="e#19#40#0" expanded="true" />
               </folding>
@@ -30,19 +47,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
+        <entry file="file://$PROJECT_DIR$/out_text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="195">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page_1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$USER_HOME$/.local/share/virtualenvs/OCR-Co7vulkc/lib/python3.7/site-packages/pytesseract/pytesseract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="365">
+              <caret line="329" column="29" selection-start-line="329" selection-start-column="29" selection-end-line="329" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -56,6 +78,8 @@
       <find>P.O. NO. 877</find>
       <find>read</find>
       <find>glob</find>
+      <find>tracking</find>
+      <find>level</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,20 +91,22 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
-        <option value="$PROJECT_DIR$/Pseudo_Code.txt" />
         <option value="$PROJECT_DIR$/Convert_PDF.py" />
         <option value="$PROJECT_DIR$/PyPDF.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Convert_to_text.py" />
+        <option value="$PROJECT_DIR$/Pseudo_Code.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+        <option value="$PROJECT_DIR$/out_text.txt" />
+        <option value="$PROJECT_DIR$/San_Jamar_ASN.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="38" />
+    <option name="x" value="-9" />
+    <option name="y" value="23" />
     <option name="width" value="1257" />
     <option name="height" value="708" />
   </component>
@@ -99,27 +125,6 @@
             </path>
             <path>
               <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-              <item name="Control Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-              <item name="OCR-text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-              <item name="Solve_my_issue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-              <item name="Solve_my_issue" type="462c0819:PsiDirectoryNode" />
-              <item name="OCR-text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -131,18 +136,33 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="OCR" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/OCR" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="OCR" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/OCR" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;Python" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;TEXT" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Solve_my_issue/OCR-text" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Convert_PDF">
+  <component name="RunManager" selected="Python.San_Jamar_ASN">
     <configuration name="Convert_PDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,6 +191,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Convert_to_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="San_Jamar_ASN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/San_Jamar_ASN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,6 +243,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.San_Jamar_ASN" />
         <item itemvalue="Python.Convert_PDF" />
         <item itemvalue="Python.scratch_6" />
       </list>
@@ -230,20 +272,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="38" width="1257" height="708" extended-state="0" />
+    <frame x="-9" y="23" width="1257" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.17152104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.17152104" />
       <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info id="Favorites" order="2" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.21753247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" visible="true" weight="0.28246754" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41558442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5779221" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.45292208" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080127" side_tool="true" weight="0.29383117" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -361,9 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BW_Audits.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -381,20 +421,11 @@
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCR-text/page1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OCR-text/page1.txt" />
     <entry file="file://$PROJECT_DIR$/page_6.jpg" />
     <entry file="file://$PROJECT_DIR$/page_10.jpg" />
     <entry file="file://$PROJECT_DIR$/page_2.jpg" />
-    <entry file="file://$PROJECT_DIR$/page_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_3.jpg" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -405,32 +436,62 @@
     <entry file="file://$PROJECT_DIR$/Control Images/page_5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Convert_to_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        <state relative-caret-position="180">
+          <caret line="81" column="30" lean-forward="true" selection-end-line="127" />
           <folding>
             <element signature="e#19#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cropped.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/OCR-Co7vulkc/lib/python3.7/site-packages/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="329" column="29" selection-start-line="329" selection-start-column="29" selection-end-line="329" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
