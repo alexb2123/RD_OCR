@@ -72,7 +72,7 @@ outfile = "out_text.txt"
 f = open(outfile, "a+")
 
 #config for pytesseract accuracy
-custom_oem_psm_config = r'--oem 3--psm 6'
+custom_oem_psm_config = r'--oem 1--psm 6'
 
 
 # Iterate from 1 to total number of pages
@@ -102,13 +102,13 @@ for i in range(1, filelimit + 1):
 #    cv2.waitKey(0)
 
 # pre-process image
-#    img = Image.open(filename)
-#    open_cv_image = np.array(img)
-#    umat_image = cv2.UMat(open_cv_image)
-#    threshold = 120
-#    retval, img = cv2.threshold(umat_image, 12, threshold, 105, cv2.THRESH_BINARY)
-#    img = Image.fromarray(img.get())
-#    img.save(filename)
+    img = Image.open(filename)
+    open_cv_image = np.array(img)
+    umat_image = cv2.UMat(open_cv_image)
+    threshold = 120
+    retval, img = cv2.threshold(umat_image, 12, threshold, 105, cv2.THRESH_BINARY)
+    img = Image.fromarray(img.get())
+    img.save(filename)
 
 
 # Recognize the text as string in image using pytesseract
@@ -126,11 +126,11 @@ for i in range(1, filelimit + 1):
     text = text.replace('-\n', '')
 
 # Finally, write the processed text to the file.
-    f.write(text)
+#    f.write(text)
 
-    text = str(pytesseract.image_to_string(croppedIm, config=custom_oem_psm_config))
+#    text = str(pytesseract.image_to_string(croppedIm, config=custom_oem_psm_config))
 
-    text = text.replace('-\n', '')
+#    text = text.replace('-\n', '')
 
     f.write(text)
 # Look back at start of file
@@ -143,8 +143,8 @@ f.seek(0)
 #Find the PO Number
 #Purchase Order Number
 strings = re.findall(r'(?<=Purchase\sOrder\sNumber:\s)[0-9]{3}\D[0-9]{5}', text)
-carrier = re.findall(r'^Ship Via:\s*(.*)$', text, re.MULTILINE)
-tracking_number = re.findall(r'^Tracking Number\s*(.*)$', text, re.MULTILINE)
+carrier = re.findall(r'Ship Via:\s*(.*)', text, re.MULTILINE)
+tracking_number = re.findall(r'Tracking Number\s*(.*)', text, re.MULTILINE)
 
 
 print(strings)
