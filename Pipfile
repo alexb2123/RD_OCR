@@ -11,6 +11,8 @@ opencv-python = "*"
 numpy = "*"
 matplotlib = "*"
 pycodestyle = "*"
+csv = "*"
+openpyxl = "*"
 
 [requires]
 python_version = "3.7"

@@ -10,7 +10,7 @@ from collections import Counter
 import cv2
 import numpy as np
 from pytesseract import Output
-import pprint
+import csv
 
 
 
@@ -40,8 +40,6 @@ for page in pages:
     # For each page, filename will be:
     # PDF page 1 -> page_1.jpg
     # PDF page 2 -> page_2.jpg
-    # PDF page 3 -> page_3.jpg
-    # ....
     # PDF page n -> page_n.jpg
     filename = "page_" + str(image_counter) + ".jpg"
 
@@ -50,11 +48,6 @@ for page in pages:
 
     # Increment the counter to update filename
     image_counter = image_counter + 1
-
-#crop images
-    image_to_crop = Image.open(filename)
-    croppedIm = image_to_crop.crop((2233, 1276, 4015, 2123))
-    croppedIm.save('cropped.jpg')
 
 
 '''
@@ -72,7 +65,6 @@ outfile = "out_text.txt"
 f = open(outfile, "a+")
 
 #config for pytesseract accuracy
-#crop_custom_oem_psm_config = r'--psm 6'
 no_crop_custom_oem_psm_config = r'--oem 1 --psm 6'
 
 
@@ -85,18 +77,6 @@ for i in range(1, filelimit + 1):
     # ....
     # page_n.jpg
     filename = "page_" + str(i) + ".jpg"
-
-
-#create bounding boxes
-#    image = cv2.imread(filename)
-#    box = pytesseract.image_to_data(filename, output_type=Output.DICT)
-#    n_boxes = len(box['level'])
-#    for i in range(n_boxes):
-#        (x, y, w, h) = (box['left'][i], box['top'][i], box['width'][i], box['height'][i])
-#        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-
-#    cv2.imshow('img', image)
-#    cv2.waitKey(0)
 
 # pre-process image
     img = Image.open(filename)
@@ -125,20 +105,13 @@ for i in range(1, filelimit + 1):
 # Finally, write the processed text to the file.
     f.write(text)
 
-#    text = str(pytesseract.image_to_string(croppedIm, config=crop_custom_oem_psm_config))
-
-#    text = text.replace('-\n', '')
-
-#    f.write(text)
 # Look back at start of file
 f.seek(0)
 
-#box = pytesseract.image_to_boxes(Image.open(filename), output_type=Output.DICT)
 
 
 
-#Find the PO Number
-#Purchase Order Number
+#Find the PO Number, carrier and tracking
 purchase_order = re.findall(r'(?<=Purchase\sOrder\sNumber:\s)[0-9]{3}\D[0-9]{5}', text)
 carrier = re.findall(r'Ship Via:\s*(.*)', text, re.MULTILINE)
 tracking_number = re.findall(r'Tracking Number\s*(.*)', text, re.MULTILINE)
@@ -147,18 +120,10 @@ tracking_number = re.findall(r'Tracking Number\s*(.*)', text, re.MULTILINE)
 print(purchase_order)
 print(carrier)
 print(tracking_number)
-#pprint.pprint(box)
-#print(box)
 
-##Make sure PO nummber is not duplicated
-#def not_singles(strings):
-#    return [key for key, value in Counter(strings).items()
-#            if value > 1]
-
-
-#print(strings)
-#a = not_singles(strings)
-
-#print(a)
+data = [[purchase_order, carrier, tracking_number]]
+with open('San_Jamar_Spreadsheet.csv', 'a+') as f:
+    writer = csv.writer(f)
+    writer.writerows(data)
 
 f.close()
