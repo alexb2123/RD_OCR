@@ -11,25 +11,30 @@ import cv2
 import numpy as np
 from pytesseract import Output
 import csv
-
+from pathlib import Path
 
 
 
 # Path of the pdf
 my_path = os.path.abspath(os.path.dirname(__file__))
-PDF_file = os.path.join(my_path, "S1968946-2.PDF")
+#PDF_file = os.path.join(my_path, "S1968946-2.PDF")
 
-if os.path.exists(PDF_file):
-    pass
-if not os.path.exists(PDF_file):
-    print('PDF_file does not exist !')
+#if os.path.exists(PDF_file):
+#    pass
+#if not os.path.exists(PDF_file):
+#    print('PDF_file does not exist !')
 
+pages = []
+
+p = Path('emails')
+for child in p.iterdir(): #child
+    pages.extend(convert_from_path(child, 500))
 
 '''
 Part #1 : Converting PDF to images 
 '''
 
-pages = convert_from_path(PDF_file, 500)
+#pages = convert_from_path(child, 500)
 
 # Counter to store images of each page of PDF to image
 image_counter = 1
