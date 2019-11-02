@@ -2,90 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74904ecc-060c-41e0-bb1a-20a87ec55eca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/San_Jamar_ASN_Version2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/San_Jamar_ASN.py" beforeDir="false" afterPath="$PROJECT_DIR$/San_Jamar_ASN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1975990.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975990.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1975995.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975995.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1975996.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975996.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1975999.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975999.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976000.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976000.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976001.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976001.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976005.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976005.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976006.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976006.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976007.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976007.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976009.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976009.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976011.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976011.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976564.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976564.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1976566.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1976566.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1977267.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1977267.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1977268.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1977268.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978065.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978065.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978066.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978066.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978083.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978083.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978085.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978085.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978086.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978086.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978088.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978088.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978090.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978090.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978091.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978091.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978852.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978852.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1978853.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1978853.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1979661.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1979661.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1979662.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1979662.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981284.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981284.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981285.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981285.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981286.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981286.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981322.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981322.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981323.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981323.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981326.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981326.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981327.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981327.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981328.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981328.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1981329.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1981329.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982877.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982877.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982878.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982878.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982889.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982889.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982891.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982891.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982893.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982893.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982894.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982894.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982895.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982895.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982896.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982896.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982897.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982897.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982898.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982898.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1982899.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1982899.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984476.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984476.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984477.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984477.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984478.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984478.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984479.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984479.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984507.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984507.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984512.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984512.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984513.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984513.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1984514.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1984514.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1985304.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1985304.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1986029.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1986029.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1986030.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1986030.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1986031.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1986031.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1986035.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1986035.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1987806.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1987806.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1987807.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1987807.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1987809.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1987809.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989462.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989462.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989463.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989463.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989464.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989464.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989466.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989466.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989494.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989494.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989495.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989495.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989497.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989497.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989498.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989498.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989500.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989500.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989508.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989508.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989510.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989510.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989513.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989513.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989514.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989514.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989515.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989515.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989516.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989516.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989517.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989517.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989519.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989519.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989520.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989520.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emails/S1989523.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1989523.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/San_Jamar_Spreadsheet.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1974417.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1974417.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1974419.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1974419.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975087.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975087.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975109.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975109.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975110.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975110.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975111.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975111.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975115.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975115.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975930.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975930.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975932.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975932.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975933.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975933.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975935.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975935.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975936.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975936.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975937.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975937.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975938.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975938.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975982.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975982.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails/S1975987.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/temporary email directory/S1975987.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_99.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,12 +125,24 @@
     <favorites_list name="OCR" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/San_Jamar_ASN_Version2.py">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+              <folding>
+                <element signature="e#19#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/San_Jamar_ASN_Version2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-246">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#19#40#0" expanded="true" />
               </folding>
@@ -111,13 +151,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="179" selection-start-line="179" selection-end-line="194" selection-end-column="9" />
-              <folding>
-                <element signature="e#19#40#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/San_Jamar_Spreadsheet.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -140,6 +180,7 @@
       <find>ship via</find>
       <find>carrier</find>
       <find>path</find>
+      <find>text_file</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,6 +204,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$PROJECT_DIR$/San_Jamar_ASN.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+        <option value="$PROJECT_DIR$/San_Jamar_Spreadsheet.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/San_Jamar_Spreadsheet.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/San_Jamar_ASN_Version2.py" />
       </list>
     </option>
   </component>
@@ -178,6 +222,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -194,31 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,8 +266,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/temporary email directory" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/temporary email directory" />
       <recent name="$PROJECT_DIR$/Solve_my_issue/OCR-text" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
     </key>
@@ -309,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch_8 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OCR" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +360,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/Excel.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,10 +393,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.scratch_8" />
+        <item itemvalue="Python.scratch_8 (1)" />
         <item itemvalue="Python.San_Jamar_ASN" />
         <item itemvalue="Python.scratch_7 (2)" />
         <item itemvalue="Python.scratch_7 (1)" />
-        <item itemvalue="Python.scratch_7" />
       </list>
     </recent_temporary>
   </component>
@@ -385,26 +424,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="23" width="1257" height="708" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.23300971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.21440129" />
       <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info id="Favorites" order="2" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.24025974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41558442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5064935" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080127" side_tool="true" weight="0.29383117" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919093" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5016234" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008091" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.21440129" />
+      <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
+      <window_info id="Favorites" order="2" sideWeight="0.5011494" side_tool="true" weight="0.28766027" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991987" weight="0.2857143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41558442" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919093" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5032467" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008091" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,30 +475,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.7.3/lib/python3.7/selectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6135">
-          <caret line="414" selection-start-line="414" selection-end-line="414" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BW_Audits.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Discord_tips.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OCR-text/page1.txt" />
-    <entry file="file://$PROJECT_DIR$/page_6.jpg" />
-    <entry file="file://$PROJECT_DIR$/page_2.jpg" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -461,13 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Bounding_Boxes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -518,21 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_93.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_14.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_97.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_93.jpg" />
+    <entry file="file://$PROJECT_DIR$/page_14.jpg" />
+    <entry file="file://$PROJECT_DIR$/page_97.jpg" />
+    <entry file="file://$PROJECT_DIR$/page_10.jpg" />
     <entry file="file://$PROJECT_DIR$/Pseudo_Code.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -547,19 +562,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_49.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_49.jpg" />
+    <entry file="file://$PROJECT_DIR$/page_3.jpg" />
     <entry file="file://$PROJECT_DIR$/Control Images/page_5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -582,86 +586,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_191.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194144" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_251.jpg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_102.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_451.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174778" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_34">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_11">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_68">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_321.jpg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/San_Jamar_Spreadsheet.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_102">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_60">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_11.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="469" selection-start-line="8" selection-start-column="469" selection-end-line="8" selection-end-column="469" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_63">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/out_text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="179" selection-start-line="179" selection-end-line="194" selection-end-column="9" />
-          <folding>
-            <element signature="e#19#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/file_name.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_191.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_251.jpg" />
+    <entry file="file://$PROJECT_DIR$/page_102.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_451.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_34" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_11" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_68" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_321.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_102" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_2" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_60" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_11.jpg" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_63" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/out_text.txt" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/filename.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -669,10 +607,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/San_Jamar_ASN_Version2.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_13" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_20" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/file_name.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Bounding_Boxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/NYCpollingSites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/page_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/San_Jamar_Spreadsheet.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/San_Jamar_ASN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/San_Jamar_Spreadsheet.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/San_Jamar_ASN_Version2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#19#40#0" expanded="true" />
           </folding>

@@ -19,44 +19,16 @@ from pathlib import Path
 my_path = os.path.abspath(os.path.dirname(__file__))
 #PDF_file = os.path.join(my_path, "S1968946-2.PDF")
 
-counter = 0
+#if os.path.exists(PDF_file):
+#    pass
+#if not os.path.exists(PDF_file):
+#    print('PDF_file does not exist !')
+
 pages = []
 
 p = Path('emails')
-for child in p.iterdir():
-    counter + 1
-    output = "page_" + str(counter)
-    image = convert_PDF_to_image(child, output)
-
-
-
-def convert_PDF_to_image(path, final_name):
-
-    converted_file = convert_from_path(child, 500)
-    filename = final_name + ".jpg"
-    converted_file.save(filename, 'JPEG')
-    return converted_file
-
-
-def pre_processing_image(path):
-    img = Image.open(path)
-    open_cv_image = np.array(img)
-    umat_image = cv2.UMat(open_cv_image)
-    threshold = 120
-    retval, img = cv2.threshold(umat_image, 12, threshold, 105, cv2.THRESH_BINARY)
-    img = Image.fromarray(img.get())
-    img.save(path)
-
-
-def convert_to_text(path, final_name):
-    no_crop_custom_oem_psm_config = r'--oem 1 --psm 6'
-    text = str(pytesseract.image_to_string(Image.open(path), config=no_crop_custom_oem_psm_config))
-    text = text.replace('-\n', '')
-
-    with open(final_name, "a+") as f:
-        f.write(text)
-
-
+for child in p.iterdir(): child
+pages.extend(convert_from_path(child, 500))
 
 '''
 Part #1 : Converting PDF to images 
@@ -65,10 +37,10 @@ Part #1 : Converting PDF to images
 #pages = convert_from_path(child, 500)
 
 # Counter to store images of each page of PDF to image
-# image_counter = 1
+image_counter = 1
 
 # Iterate through all the pages stored above
-for image_counter, page in enumerate(pages):
+for page in pages:
     # Declaring filename for each page of PDF as JPG
     # For each page, filename will be:
     # PDF page 1 -> page_1.jpg
@@ -80,7 +52,7 @@ for image_counter, page in enumerate(pages):
     page.save(filename, 'JPEG')
 
     # Increment the counter to update filename
-    # image_counter += 1
+    image_counter = image_counter + 1
 
 
 '''
@@ -111,8 +83,7 @@ for i in range(1, filelimit + 1):
     # page_n.jpg
     filename = "page_" + str(i) + ".jpg"
 
-
-    # pre-process image
+# pre-process image
     img = Image.open(filename)
     open_cv_image = np.array(img)
     umat_image = cv2.UMat(open_cv_image)
@@ -122,43 +93,8 @@ for i in range(1, filelimit + 1):
     img.save(filename)
 
 
-    # Recognize the text as string in image using pytesseract
+# Recognize the text as string in image using pytesseract
     text = str(pytesseract.image_to_string(Image.open(filename), config=no_crop_custom_oem_psm_config))
-
-    # The recognized text is stored in variable text
-    # Any string processing may be applied on text
-    # Here, basic formatting has been done:
-    # In many PDFs, at line ending, if a word can't
-    # be written fully, a 'hyphen' is added.
-    # The rest of the word is written in the next line
-    # Eg: This is a sample text this word here GeeksF-
-    # orGeeks is half on first line, remaining on next.
-    # To remove this, we replace every '-\n' to ''.
-    text = text.replace('-\n', '')
-
-    # Finally, write the processed text to the file.
-    f.write(text)
-
-# Look back at start of file
-f.seek(0)
-
-
-def pre_processing_image(path):
-    img = Image.open(path)
-    open_cv_image = np.array(img)
-    umat_image = cv2.UMat(open_cv_image)
-    threshold = 120
-    retval, img = cv2.threshold(umat_image, 12, threshold, 105, cv2.THRESH_BINARY)
-    img = Image.fromarray(img.get())
-    img.save(path)
-
-def convert_to_text(path, final_name):
-    no_crop_custom_oem_psm_config = r'--oem 1 --psm 6'
-    text = str(pytesseract.image_to_string(Image.open(path), config=no_crop_custom_oem_psm_config))
-    text = text.replace('-\n', '')
-
-    with open(final_name, "a+") as f:
-        f.write(text)
 
 # The recognized text is stored in variable text
 # Any string processing may be applied on text
@@ -169,10 +105,13 @@ def convert_to_text(path, final_name):
 # Eg: This is a sample text this word here GeeksF-
 # orGeeks is half on first line, remaining on next.
 # To remove this, we replace every '-\n' to ''.
-text = text.replace('-\n', '')
+    text = text.replace('-\n', '')
 
 # Finally, write the processed text to the file.
-f.write(text)
+    f.write(text)
+
+# Look back at start of file
+f.seek(0)
 
 
 
@@ -193,5 +132,3 @@ with open('San_Jamar_Spreadsheet.csv', 'a+') as f:
     writer.writerows(data)
 
 f.close()
-
-
